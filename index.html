@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gap"></div>
+      <div class="gap"></div>
+      <div class="gap"></div>
+      <div class="gap"></div>
+      <div class="middle"></div>
+      <div class="gap"></div>
+      <div class="gap"></div>
+      <div class="gap">
+        <button class="btn" onclick="start()">start</button>
+        <button class="btn" onclick="stop()">stop</button>
+        <button class="btn" onclick="clearo()">clear</button>
+        <span>speed</span>
+        <input
+          type="range"
+          min="1"
+          max="10"
+          value="5"
+          class="slider"
+          id="myRange"
+        />
+        <span id="speed">5</span>
+      </div>
+      <div class="gap"></div>
+    </div>
+  </body>
+  <script src="logic.js"></script>
+</html>
